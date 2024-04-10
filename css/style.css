@@ -190,6 +190,13 @@ h1,
 .mil-h1 {
   font-size: 86px;
 }
+.services .mil-h1 {
+    font-size: 46px;
+}
+.services h2, .mil-h2 {
+    font-size: 43px;
+    line-height: 120%;
+} 
 @media screen and (max-width: 1400px) {
   h1,
 .mil-h1 {
@@ -403,7 +410,8 @@ a {
 }
 
 .mil-light-soft {
-  color: rgba(255, 255, 255, 0.4);
+  /*//color: rgba(255, 255, 255, 0.4);*/
+  color: darkgray;
 }
 
 .mil-dark-soft {
