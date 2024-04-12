@@ -191,10 +191,10 @@ h1,
   font-size: 86px;
 }
 .services .mil-h1 {
-    font-size: 46px;
+    font-size: 34px;
 }
 .services h2, .mil-h2 {
-    font-size: 43px;
+    font-size: 35px;
     line-height: 120%;
 } 
 @media screen and (max-width: 1400px) {
@@ -1711,11 +1711,12 @@ banner
       -ms-flex-align: end;
           align-items: flex-end;
 }
-.mil-banner .mil-banner-content {
-  width: 100%;
-  padding-bottom: 120px;
-  position: relative;
-}
+    .mil-banner .mil-banner-content {
+        width: 100%;
+        padding-bottom: 120px;
+        position: relative;
+        transform: translate(0px, 45px) !important;
+    }
 @media screen and (max-width: 992px) {
   .mil-banner .mil-banner-content {
     padding-bottom: 90px;
