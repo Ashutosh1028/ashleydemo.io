@@ -68,7 +68,7 @@ $(function () {
     timeline.to(".mil-animation-1 .mil-h3", {
         opacity: 0,
         y: '-30',
-    }, "+=.3");
+    }, "+=.7"); // change .7 to hold the first preloader message
 
     timeline.fromTo(".mil-reveal-box", 0.1, {
         opacity: 0,
@@ -114,6 +114,7 @@ $(function () {
             $('.mil-preloader').addClass("mil-hidden");
         },
     }, "-=1");
+    
     /***************************
 
     anchor scroll
