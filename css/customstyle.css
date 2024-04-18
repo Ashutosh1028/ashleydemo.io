@@ -25,7 +25,7 @@ p {
 .mil-position-3 {
     right: 59%;
 }
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 600px) and (min-width: 1300px) {
     .mil-menu-frame .mil-menu-right-frame {
         display: none !important;
     }
