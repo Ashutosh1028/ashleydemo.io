@@ -25,6 +25,11 @@ p {
 .mil-position-3 {
     right: 59%;
 }
+@media screen and (max-height: 600px) {
+    .mil-menu-frame .mil-menu-right-frame {
+        display: none !important;
+    }
+}
 @media screen and (min-height: 600px) and (max-height: 800px) {
     .mil-menu-frame .mil-menu-right-frame {
         display: block;
@@ -71,7 +76,7 @@ p {
         transform: translateY(15px) !important;
     }
 }
-@media screen and (min-width: 1300px)and (max-height: 1400px) {
+@media screen and (min-width: 1300px) and (max-height: 1400px) {
     .mil-position-2 {
         display: block !important;
     }
