@@ -64,7 +64,7 @@ $(function () {
         stagger: 0.4
     },
     );
-
+     
     timeline.to(".mil-animation-1 .mil-h3", {
         opacity: 0,
         y: '-30',
