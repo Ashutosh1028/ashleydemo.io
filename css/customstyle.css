@@ -68,9 +68,24 @@ p {
 .protoh2 h2 {
     font-size: 55px;
 }
-
-
-
+.businessmodel .modelcon{
+    padding-top:90px;
+}
+.mil-mb-10{
+    margin-bottom:10px;
+}
+.mil-pb-60 {
+    padding-bottom: 60px;
+}
+.onboarding h4{
+    padding-top:10px;
+}
+.onboarding ul{
+    margin-bottom:25px;
+}
+.onboarding p{
+    font-size:16px;
+}
 
 @media screen and (max-height: 600px) {
     .mil-menu-frame .mil-menu-right-frame {
