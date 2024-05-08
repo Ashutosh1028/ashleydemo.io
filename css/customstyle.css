@@ -86,7 +86,52 @@ p {
 .onboarding p{
     font-size:16px;
 }
+.spiderimg {
+    height: 50px;
+    width: 65px;
+}
+.mil-team-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.mil-team-image .mil-avatar {
+    width: 85px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+}
+.mil-team-image .mil-avatar img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-position: top;
+}
+.spidervideo{
+    height:350px;
+    border-radius:20px;
+}
+.aboutp {
+    font-size: 18px;
+}
 
+.blogp {
+    display: block !important;
+    overflow: visible !important;
+}
+
+.mil-blog-card.mil-blog-card-hori .mil-cover-frame {
+    height: 530px !important;
+}
+    .mil-blog-card.mil-blog-card-hori .mil-cover-frame img {
+        height: 530px !important;
+    }
 @media screen and (max-height: 600px) {
     .mil-menu-frame .mil-menu-right-frame {
         display: none !important;
