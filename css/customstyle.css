@@ -332,23 +332,8 @@ span.blogprice {
         transform: translateY(0) scale(1);
     }
 }
-.front, .back {
-    backface-visibility: hidden;
-}
 
-.back {
-    display: none;
-    transform: rotateY(180deg);
-}
 
-.front {
-    background-color: #fff;
-}
-
-.back {
-    background-color: #f8f9fa;
-    transform: rotateY(180deg);
-}
 
 @media screen and (max-height: 600px) {
     .mil-menu-frame .mil-menu-right-frame {
