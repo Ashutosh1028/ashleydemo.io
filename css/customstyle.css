@@ -268,7 +268,6 @@ span.blogprice {
 
 .timeline {
     padding: 20px;
-    background-color: #000; /* Black background for the timeline */
     color: #fff; 
     border-radius:10px/* White text color */
 }
@@ -278,39 +277,62 @@ span.blogprice {
     align-items: flex-start;
     margin-bottom: 20px;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 85px;
     background-color: #ffca28; /* Default background color */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: fadeInZoom 0.5s ease-out;
+    color:#fff;
 }
 
     .step:nth-child(odd) {
-        background-color: #e6f7ff;
+        background-color: rgb(0, 0, 0);
+        
+    }
+    .step:nth-child(odd) h4 {
+        background-color: rgb(0, 0, 0);
+        color: #fff !important;
+    }
+        .step:nth-child(odd) p {
+            color: #fff !important;
+            font-weight: 200;
+        }
+        .step:nth-child(odd) b {
+            color: #fff !important;
+        }
+        .step:nth-child(odd) i {
+            color: #fff !important;
     }
 
     
 
     .step i {
-        font-size: 2rem;
+        font-size: 4rem;
         margin-right: 10px;
         color: #333;
     }
-
+.onboarding i{
+    color:black;
+    font-size:xx-large;
+}
 .step-content {
     flex: 1;
 }
-
+.stepicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 19vh;
+    margin-left:5px;
+}
 .step h4 {
     margin: 0;
     font-size: 1.2rem;
-    color: rgb(0, 0, 0);
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
 
 .step p {
     margin: 5px 0;
-    color: #666;
 }
 
 .step b {
