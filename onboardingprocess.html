@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/customstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gasp/flip.css">
 
 
     <!-- page name -->
@@ -218,7 +219,7 @@
             <div id="swupMain" class="mil-main-transition">
 
                 <!-- banner -->
-                <div class="mil-inner-banner">
+                <div class="mil-inner-banner mil-mb-90">
                     <div class="mil-animation-frame">
                         <div class="mil-animation mil-position-4 mil-dark mil-scale" data-value-1="6" data-value-2="1.4"></div>
                     </div>
@@ -243,113 +244,57 @@
                     <div class="container mil-p-90-90">
                         <div class="row justify-content-between">
                             <div class="col-lg-12 mil-relative mil-mb-90">
-                                <h4 class="mil-up mil-mb-30">
-                                    Step 1: Kickoff Conversation
-                                </h4>
-                                <ul class="onboardingul">
-                                    <li class="mil-up">
-                                        <p>
-                                            <b>Connect & Discuss:</b> Let's schedule a virtual meeting to dive into your project goals and requirements. Share your vision with us.
-                                        </p>
-                                    </li>
-                                    <li class="mil-up">
-                                        <p>
-                                            <b>Define the Scope:</b> Together, we'll outline the project scope, including key features, functionalities, and timelines.
-                                        </p>
-                                    </li>
-                                </ul>
-                                <h4 class="mil-up mil-mb-30">
-                                    Step 2: Agreement & Paperwork
-                                </h4>
-                                <ul class="onboardingul">
-                                    <li class="mil-up">
-                                        <p>
-                                            <b>Seal the Deal:</b> We'll provide a clear, comprehensive contract detailing our engagement terms and conditions.
-                                        </p>
-                                    </li>
-                                    <li class="mil-up">
-                                        <p>
-                                            <b>Get Started:</b> A deposit will activate your project and set things in motion.
-                                        </p>
-                                    </li>
-                                </ul>
-                                <h4 class="mil-up mil-mb-30">
-                                    Step 3: Design & Development
-                                </h4>
-                                <ul class="onboardingul">
-                                    <li class="mil-up">
-                                        <p>
-                                            <b>Visualize & Review:</b> Our design team crafts wireframes and initial designs based on your needs. Your feedback is vital here.
-                                        </p>
-                                    </li>
-                                    <li class="mil-up">
-                                        <p>
-                                            <b>Build & Create:</b> After design approval, our development team brings your vision to life according to specifications.
-                                        </p>
-                                    </li>
-                                </ul>
-                                <h4 class="mil-up mil-mb-30">
-                                    Step 4: Quality Testing & Review
-                                </h4>
-                                <ul class="onboardingul">
-                                    <li class="mil-up">
-                                        <p>
-                                            <b>Rigorous Testing:</b> Our team ensures everything works seamlessly and meets high standards.
-                                        </p>
-                                    </li>
-                                    <li class="mil-up">
-                                        <p>
-                                            <b>Your Input Matters:</b> Test the project yourself and provide your thoughts for adjustments.
-                                        </p>
-                                    </li>
-                                </ul>
-                                <h4 class="mil-up mil-mb-30">
-                                    Step 5: Final Approval & Launch
-                                </h4>
-                                <ul class="onboardingul">
-                                    <li class="mil-up">
-                                        <p>
-                                            <b>Review & Confirm:</b> We’ll meet for a final review session to discuss final touches.
-                                        </p>
-                                    </li>
-                                    <li class="mil-up">
-                                        <p>
-                                            <b>Ready to Go Live:</b> Once approved, we'll launch your project.
-                                        </p>
-                                    </li>
-                                </ul>
-                                <h4 class="mil-up mil-mb-30">
-                                    Step 6: Live Environment Testing
-                                </h4>
-                                <ul class="onboardingul">
-                                    <li class="mil-up">
-                                        <p>
-                                            <b>Real-World Performance Check:</b> Once your project goes live, we test its performance in the real-world environment to ensure it operates smoothly and meets user expectations.
-                                        </p>
-                                    </li>
-                                    <li class="mil-up">
-                                        <p>
-                                            <b>Fine-Tuning & Adjustments:</b> We make necessary tweaks and optimizations based on feedback and observations from the live environment, ensuring your project functions perfectly for end users.
-                                        </p>
-                                    </li>
-                                </ul>
-                                <h4 class="mil-up mil-mb-30">
-                                    Step 7: Post-Launch Support & Maintenance
-                                </h4>
-                                <ul class="onboardingul">
-                                    <li class="mil-up">
-                                        <p>
-                                            <b> Ongoing Support:</b> We're here to assist you even after the launch. Reach out with any questions or issues.
-                                        </p>
-                                    </li>
-                                    <li class="mil-up">
-                                        <p>
-                                            <b>Maintenance Options:</b> Explore our maintenance packages to keep your software or website performing optimally.
-                                        </p>
-                                    </li>
-                                </ul>
+                                <div class="timeline">
+                                    <div class="step">
+                                        <i class="fas fa-clipboard-check"></i>
+                                        <div class="step-content">
+                                            <h4>Kickoff Conversation</h4>
+                                            <p><b>Connect & Discuss:</b> Let's schedule a virtual meeting to dive into your project goals and requirements. Share your vision with us.</p>
+                                            <p><b>Define the Scope:</b> Together, we'll outline the project scope, including key features, functionalities, and timelines.</p>
+                                        </div>
+                                    </div>
+                                    <div class="step">
+                                        <i class="fas fa-file-contract"></i>
+                                        <div class="step-content">
+                                            <h4>Agreement & Paperwork</h4>
+                                            <p><b>Seal the Deal:</b> We'll provide a clear, comprehensive contract detailing our engagement terms and conditions.</p>
+                                            <p><b>Get Started:</b> A deposit will activate your project and set things in motion.</p>
+                                        </div>
+                                    </div>
+                                    <div class="step">
+                                        <i class="fas fa-paint-brush"></i>
+                                        <div class="step-content">
+                                            <h4>Design & Development</h4>
+                                            <p><b>Visualize & Review:</b> Our design team crafts wireframes and initial designs based on your needs. Your feedback is vital here.</p>
+                                            <p><b>Build & Create:</b> After design approval, our development team brings your vision to life according to specifications.</p>
+                                        </div>
+                                    </div>
+                                    <div class="step">
+                                        <i class="fas fa-bug"></i>
+                                        <div class="step-content">
+                                            <h4>Quality Testing & Review</h4>
+                                            <p><b>Rigorous Testing:</b> Our team ensures everything works seamlessly and meets high standards.</p>
+                                            <p><b>Your Input Matters:</b> Test the project yourself and provide your thoughts for adjustments.</p>
+                                        </div>
+                                    </div>
+                                    <div class="step">
+                                        <i class="fas fa-rocket"></i>
+                                        <div class="step-content">
+                                            <h4>Final Approval & Launch</h4>
+                                            <p><b>Review & Confirm:</b> We’ll meet for a final review session to discuss final touches.</p>
+                                            <p><b>Ready to Go Live:</b> Once approved, we'll launch your project.</p>
+                                        </div>
+                                    </div>
+                                    <div class="step">
+                                        <i class="fas fa-globe"></i>
+                                        <div class="step-content">
+                                            <h4>Live Environment Testing</h4>
+                                            <p><b>Real-World Performance Check:</b> Once your project goes live, we test its performance in the real-world environment to ensure it operates smoothly and meets user expectations.</p>
+                                            <p><b>Fine-Tuning & Adjustments:</b> We make necessary tweaks and optimizations based on feedback and observations from the live environment, ensuring your project functions perfectly for end users.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-
                         </div>
                     </div>
                 </section>

@@ -11,4 +11,6 @@ window.addEventListener('DOMContentLoaded', function () {
         var yOffset = sliderContainer.getBoundingClientRect().top + window.pageYOffset;
         window.scrollTo({ top: yOffset, behavior: 'smooth' });
     }
+   
+
 });
