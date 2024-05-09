@@ -258,7 +258,7 @@ span.blogprice {
 /* Light Gray */
 .feature:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transform: scale(1.05);
+    transform: scale(1.05); 
 }
 
 @media screen and (max-height: 600px) {
