@@ -356,6 +356,65 @@ span.blogprice {
 }
 
 
+.model-message {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.7s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.modelcon h2 {
+    margin-bottom: 30px; 
+}
+
+
+.model-message h3 {
+    color: #1e90ff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items:center;
+}
+
+.model-message p {
+    color: #555555;
+    font-size: 16px; 
+    line-height: 1.6; 
+}
+.model-message i {
+    margin-right:1%;
+}
+
+.model-message:hover {
+    background-color: #000;
+    transform: scale(1.03);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.model-message:hover p{
+    color: white;
+    font-weight:200;
+}
+/* Animation */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.onboarding .mil-accordion-head{
+    font-size:15px !important;
+}
+
+
 
 @media screen and (max-height: 600px) {
     .mil-menu-frame .mil-menu-right-frame {
