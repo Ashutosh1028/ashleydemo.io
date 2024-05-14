@@ -80,7 +80,15 @@ p {
 .mil-pb-60 {
     padding-bottom: 60px;
 }
-
+mil-pb-90 {
+    padding-bottom: 90px;
+}
+.mil-inner-banner .mil-banner-content{
+    padding:100px 0 0 0;
+}
+.mil-accordion-content{
+    color:black;
+}
 .onboarding h4 {
     padding-top: 10px;
 }
@@ -143,7 +151,7 @@ p {
 }
 
     .mil-blog-card.mil-blog-card-hori .mil-cover-frame img {
-        height: 530px !important;
+        /*height: 530px !important;*/
     }
 
 .headerblog {
@@ -173,7 +181,7 @@ span.blogprice {
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 20px;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition effect */
+    transition: background-color 0.7s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
 
     .featuretext:hover {
@@ -396,21 +404,74 @@ span.blogprice {
     color: white;
     font-weight:200;
 }
-/* Animation */
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
 
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.feature {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.7s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.modelcon h2 {
+    margin-bottom: 30px;
 }
 
 
-.onboarding .mil-accordion-head{
+.feature h3 {
+    color: #1e90ff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.feature i {
+    color: #1e90ff;
+    margin-right: 1%;
+}
+
+.feature:hover {
+    background-color: #000;
+    transform: scale(1.03);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.feature:hover p {
+    color: white;
+    font-weight: 200;
+}
+
+
+.mil-pl-0-pr-60 {
+    padding-right: 60px !important;
+    padding-left:0 !important;
+}
+.blogcontent {
+    display:block !important;
+}
+/* Animation */
+    @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .onboarding .mil-accordion-head{
     font-size:15px !important;
 }
 
@@ -470,7 +531,9 @@ span.blogprice {
         text-align: left;
     }
 }
-
+.content-show{
+    overflow:visible;
+}
 @media screen and (min-height: 700px) and (max-height: 800px) and (min-width: 1250px) {
     .mil-menu-frame .mil-menu-right-frame .mil-menu-right {
         transform: translateY(15px) !important;
