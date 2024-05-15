@@ -46,8 +46,10 @@ window.addEventListener('DOMContentLoaded', function () {
         //});
 
 
-        
 
+    $(document).ready(function () {
+        $('.mil-preloader').hide();
+    });
 
     });
     //$(document).ready(function () {
@@ -66,4 +68,4 @@ window.addEventListener('DOMContentLoaded', function () {
     //});
 
 
-});
+//});
