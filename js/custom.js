@@ -48,7 +48,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
 
     $(document).ready(function () {
-        $('.mil-preloader').hide();
+       // $('.mil-preloader').hide();
     });
 
     });
