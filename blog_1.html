@@ -76,49 +76,26 @@
             </div>
             <!-- frame clone end -->
             <div class="container">
-                <div class="mil-menu-content blog_1">
+                <div class="mil-menu-content">
                     <div class="row">
                         <div class="col-xl-5">
 
                             <nav class="mil-main-menu" id="swupMenu">
                                 <ul>
-                                    <li class="mil-has-children">
-                                        <a href="#.">Homepage</a>
-                                        <ul>
-                                            <li><a href="index.html">Landing page</a></li>
-                                            <li><a href="businessmodel.html">Business Model</a></li>
-                                            <li><a href="onboardingprocess.html">Client- On Boarding Process</a></li>
-                                        </ul>
+                                    <li class="mil-has-children ">
+                                        <a class="menu-btn" data-target="homepage_menu" href="#.">Homepage</a>
                                     </li>
                                     <li class="mil-has-children">
-                                        <a href="#.">Portfolio</a>
-                                        <ul>
-                                            <li><a href="portfolio-1.html">Grid type 1</a></li>
-                                            <li><a href="portfolio-2.html">Grid type 2</a></li>
-                                            <li><a href="portfolio-3.html">Slider</a></li>
-                                        </ul>
+                                        <a class="menu-btn" data-target="proto_menu" href="#.">Portfolio</a>
                                     </li>
                                     <li class="mil-has-children">
-                                        <a href="#.">Services</a>
-                                        <ul>
-                                            <li><a href="services.html">Services List</a></li>
-                                            <li><a href="service.html">Single service</a></li>
-                                        </ul>
+                                        <a class="menu-btn" data-target="services_menu" href="#.">Services</a>
                                     </li>
-                                    <li class="mil-has-children mil-active">
-                                        <a href="#.">Newsletter</a>
-                                        <ul>
-                                            <li><a href="blog.html">Blog List</a></li>
-                                            <li><a href="publication.html">Publication</a></li>
-                                        </ul>
+                                    <li class="mil-has-children mil-active ">
+                                        <a class="menu-btn" data-target="blog_menu" href="#.">Blogs</a>
                                     </li>
                                     <li class="mil-has-children">
-                                        <a href="#.">Other pages</a>
-                                        <ul>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="404.html">404</a></li>
-                                        </ul>
+                                        <a class="menu-btn" data-target="other_menu" href="#.">Other pages</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -134,46 +111,47 @@
                                 </div>
                                 <div class="mil-menu-right">
                                     <div class="row">
-                                        <div class="col-lg-8 mil-mb-60">
-
-                                            <h6 class="mil-muted mil-mb-30">Projects</h6>
-
-                                            <ul class="mil-menu-list">
-                                                <li><a href="project-1.html" class="mil-light-soft">Interior design studio</a></li>
-                                                <li><a href="project-2.html" class="mil-light-soft">Home Security Camera</a></li>
-                                                <li><a href="project-3.html" class="mil-light-soft">Kemia Honest Skincare</a></li>
-                                                <li><a href="project-4.html" class="mil-light-soft">Cascade of Lava</a></li>
-                                                <li><a href="project-5.html" class="mil-light-soft">Air Pro by Molekule</a></li>
-                                                <li><a href="project-6.html" class="mil-light-soft">Tony's Chocolonely</a></li>
-                                            </ul>
-
-                                        </div>
-                                        <div class="col-lg-4 mil-mb-60">
-
-                                            <h6 class="mil-muted mil-mb-30">Useful links</h6>
-
-                                            <ul class="mil-menu-list">
-                                                <li><a href="#." class="mil-light-soft">Privacy Policy</a></li>
-                                                <li><a href="#." class="mil-light-soft">Terms and conditions</a></li>
-                                                <li><a href="#." class="mil-light-soft">Cookie Policy</a></li>
-                                                <li><a href="#." class="mil-light-soft">Careers</a></li>
-                                            </ul>
-
-                                        </div>
+                                        <h6 class="mil-muted mil-mb-30">Projects</h6>
+                                        <ul class="mil-menu-list homepage_menu  menu-list" style="display:none">
+                                            <li class="menulistitems "><a class="mil-light-soft mil-menu-a" href="index.html"><span><i class="fas fa-globe"></i> Landing page</span><i class="fas fa-chevron-right"></i></a></li>
+                                            <li class="menulistitems"><a class="mil-light-soft mil-menu-a" href="businessmodel.html"><span><i class="fas fa-chart-line"></i> Business Model</span><i class="fas fa-chevron-right"></i></a></li>
+                                            <li class="menulistitems"><a class="mil-light-soft mil-menu-a" href="onboardingprocess.html"><span><i class="fas fa-user-plus"></i> Client- On Boarding Process</span><i class="fas fa-chevron-right"></i></a></li>
+                                        </ul>
+                                        <ul class="mil-menu-list proto_menu menu-list" style="display:none">
+                                            <li class="menulistitems"><a class="mil-light-soft mil-menu-a" href="portfolio-1.html"><span><i class="fas fa-th"></i> Grid type 1</span><i class="fas fa-chevron-right"></i></a></li>
+                                            <li class="menulistitems"><a class="mil-light-soft mil-menu-a" href="portfolio-2.html"><span><i class="fas fa-th-large"></i> Grid type 2</span><i class="fas fa-chevron-right"></i></a></li>
+                                            <li class="menulistitems"><a class="mil-light-soft mil-menu-a" href="portfolio-3.html"><span><i class="fas fa-sliders-h"></i> Slider</span><i class="fas fa-chevron-right"></i></a></li>
+                                        </ul>
+                                        <ul class="mil-menu-list services_menu menu-list" style="display:none">
+                                            <li class="menulistitems"><a class="mil-light-soft mil-menu-a" href="designservice.html"><span><i class="fas fa-paint-brush"></i> UI/UX Design</span><i class="fas fa-chevron-right"></i></a></li>
+                                            <li class="menulistitems"><a class="mil-light-soft mil-menu-a" href="service.html"><span><i class="fas fa-laptop-code"></i> Website Design and Development</span><i class="fas fa-chevron-right"></i></a></li>
+                                            <li class="menulistitems"><a class="mil-light-soft mil-menu-a" href="services.html"><span><i class="fas fa-cogs"></i> Explore other Services</span><i class="fas fa-chevron-right"></i></a></li>
+                                        </ul>
+                                        <ul class="mil-menu-list blog_menu menu-list">
+                                            <li class="menulistitems activeli"><a class="mil-light-soft mil-menu-a" href="blog_1.html"><span><i class="fas fa-newspaper"></i> Blog-1</span><i class="fas fa-chevron-right"></i></a></li>
+                                            <li class="menulistitems"><a class="mil-light-soft mil-menu-a" href="blog_2.html"><span><i class="fas fa-newspaper"></i> Blog-2</span><i class="fas fa-chevron-right"></i></a></li>
+                                            <li class="menulistitems"><a class="mil-light-soft mil-menu-a" href="casestudy.html"><span><i class="fas fa-file-alt"></i> Case Study</span><i class="fas fa-chevron-right"></i></a></li>
+                                        </ul>
+                                        <ul class="mil-menu-list other_menu menu-list" style="display:none">
+                                            <li class="menulistitems"><a class="mil-light-soft mil-menu-a" href="team.html"><span><i class="fas fa-users"></i> Team</span><i class="fas fa-chevron-right"></i></a></li>
+                                            <li class="menulistitems"><a class="mil-light-soft mil-menu-a" href="contact.html"><span><i class="fas fa-envelope"></i> Contact</span><i class="fas fa-chevron-right"></i></a></li>
+                                            <li class="menulistitems"><a class="mil-light-soft mil-menu-a" href="404.html"><span><i class="fas fa-exclamation-circle"></i> Error</span><i class="fas fa-chevron-right"></i></a></li>
+                                        </ul>
                                     </div>
+
                                     <div class="mil-divider mil-mb-60"></div>
                                     <div class="row justify-content-between">
 
                                         <div class="col-lg-4 mil-mb-60">
 
-                                            <h6 class="mil-muted mil-mb-30">Canada</h6>
+                                            <h6 class="mil-muted mil-mb-30">Address</h6>
 
                                             <p class="mil-light-soft mil-up">71 South Los Carneros Road, California <span class="mil-no-wrap">+51 174 705 812</span></p>
 
                                         </div>
                                         <div class="col-lg-4 mil-mb-60">
 
-                                            <h6 class="mil-muted mil-mb-30">Germany</h6>
+                                            <h6 class="mil-muted mil-mb-30">Contact</h6>
 
                                             <p class="mil-light-soft">Leehove 40, 2678 MC De Lier, Netherlands <span class="mil-no-wrap">+31 174 705 811</span></p>
 
@@ -691,6 +669,7 @@
     <script src="js/plugins/ScrollTo.min.js"></script>
     <!-- GearUpCode js -->
     <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
 
 </body>
 

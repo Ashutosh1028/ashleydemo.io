@@ -37,21 +37,40 @@ window.addEventListener('DOMContentLoaded', function () {
     //        });
     //    }
 
-        //// Create an intersection observer instance
-        //let observer = new IntersectionObserver(animateFeatures, { root: null, threshold: 0.5 });
+    //// Create an intersection observer instance
+    //let observer = new IntersectionObserver(animateFeatures, { root: null, threshold: 0.5 });
 
-        //// Observe each feature
-        //$('.feature').each(function () {
-        //    observer.observe(this);
-        //});
+    //// Observe each feature
+    //$('.feature').each(function () {
+    //    observer.observe(this);
+    //});
 
 
 
-    $(document).ready(function () {
-       // $('.mil-preloader').hide();
+    
+
+});
+$(document).ready(function () {
+    loadCSS('css/customstyles.css');
+    $('.menu-btn').click(function () {
+        var menuToShow = $(this).data('target');
+        $('.menu-list').hide(); // Hide all menus
+        $('.' + menuToShow).show(); // Show the selected menu
     });
+});
 
-    });
+
+function loadCSS(url) {
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = url;
+    document.head.appendChild(link);
+}
+
+// Call this function with the appropriate CSS file URL when navigating to a new page
+
+
+
     //$(document).ready(function () {
     //    $('.mil-accordion-head').click(function () {
     //        $(this).closest('.mil-accordion-menu').next('.mil-accordion-content').toggleClass('content-show');
