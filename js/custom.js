@@ -47,8 +47,14 @@ window.addEventListener('DOMContentLoaded', function () {
 
 
 
-    $(document).ready(function () {
-       // $('.mil-preloader').hide();
+    document.querySelectorAll('.question-header').forEach(item => {
+        item.addEventListener('click', event => {
+            const answer = item.nextElementSibling;
+            const icon = item.querySelector('.toggle-icon');
+            answer.classList.toggle('show');
+            icon.classList.toggle('rotate');
+            
+        });
     });
 
     });

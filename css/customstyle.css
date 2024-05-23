@@ -26,6 +26,15 @@ p {
 .mil-position-3 {
     right: 59%;
 }
+.onboardingheaderp {
+    font-size: 18px;
+}
+.headeronboard{
+    text-align:center;
+}
+
+
+
 
 .mil-banner-content .servicesbtn {
     cursor: pointer;
@@ -346,6 +355,7 @@ h5.mil-muted.mil-mb-30{
 }
 .timeline {
     padding: 20px;
+    padding-left:11%;
     color: #fff; 
     border-radius:10px/* White text color */
 }
@@ -390,6 +400,7 @@ h5.mil-muted.mil-mb-30{
         color: #333;
     }
 .onboarding i{
+
     color:black;
     font-size:xx-large;
 }
@@ -545,8 +556,13 @@ h5.mil-muted.mil-mb-30{
     font-size:15px !important;
 }
 
-
-
+.mil-pt-90{
+    padding-top:90px;
+}
+.mil-pb-pt-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 @media screen and (max-height: 600px) {
     .mil-menu-frame .mil-menu-right-frame {
         display: none !important;
