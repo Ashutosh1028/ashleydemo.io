@@ -28,6 +28,7 @@ p {
 }
 .onboardingheaderp {
     font-size: 18px;
+    
 }
 .headeronboard{
     text-align:center;
@@ -89,7 +90,7 @@ p {
 .mil-pb-60 {
     padding-bottom: 60px;
 }
-mil-pb-90 {
+.mil-pb-90 {
     padding-bottom: 90px;
 }
 .mil-inner-banner .mil-banner-content{

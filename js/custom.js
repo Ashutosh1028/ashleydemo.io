@@ -75,3 +75,24 @@ window.addEventListener('DOMContentLoaded', function () {
 
 
 //});
+document.addEventListener('DOMContentLoaded', () => {
+    const navbarMenu = document.querySelector('.navbar-menu');
+    const navbar = document.querySelector('.navbar');
+ 
+    const sections = document.querySelectorAll('.mil-content');
+    window.addEventListener('scroll', () => {
+        sections.forEach(section => {
+            const rect = section.getBoundingClientRect();
+            if (rect.top <= 0 && rect.bottom >= 0) {
+                if (getComputedStyle(section).backgroundColor === '#fff') { // dark background
+                    navbar.classList.remove('navbar-light');
+                    navbar.classList.add('navbar-dark');
+                } else {
+                    navbar.classList.remove('navbar-dark');
+                    navbar.classList.add('navbar-light');
+                }
+            }
+        });
+    });
+});
+
