@@ -75,24 +75,40 @@ window.addEventListener('DOMContentLoaded', function () {
 
 
 //});
-document.addEventListener('DOMContentLoaded', () => {
-    const navbarMenu = document.querySelector('.navbar-menu');
-    const navbar = document.querySelector('.navbar');
- 
-    const sections = document.querySelectorAll('.mil-content');
-    window.addEventListener('scroll', () => {
-        sections.forEach(section => {
-            const rect = section.getBoundingClientRect();
-            if (rect.top <= 0 && rect.bottom >= 0) {
-                if (getComputedStyle(section).backgroundColor === '#fff') { // dark background
-                    navbar.classList.remove('navbar-light');
-                    navbar.classList.add('navbar-dark');
-                } else {
-                    navbar.classList.remove('navbar-dark');
-                    navbar.classList.add('navbar-light');
-                }
-            }
-        });
+$(document).ready(function () {
+    $('#myTab button').on('click', function (e) {
+        var buttonId = $(this).attr('id');
+        var targetPaneId = buttonId + '-pane';
+
+        // Remove the 'active' class from all elements with class 'tab-pane' inside 'tab-content'
+        $('.nav-item .nav-link').removeClass('active');
+        $('.tab-content .tab-pane').removeClass('active');
+        $('.tab-content .tab-pane').removeClass('show');
+
+        // Add the 'active' class to the specific tab pane div
+        $('#' + targetPaneId).addClass('active').fadeIn();
+        $('#' + targetPaneId).addClass('show');
+        $(this).addClass('active');
     });
 });
+//document.addEventListener('DOMContentLoaded', () => {
+//    const navbarMenu = document.querySelector('.navbar-menu');
+//    const navbar = document.querySelector('.navbar');
+ 
+//    const sections = document.querySelectorAll('.mil-content');
+//    window.addEventListener('scroll', () => {
+//        sections.forEach(section => {
+//            const rect = section.getBoundingClientRect();
+//            if (rect.top <= 0 && rect.bottom >= 0) {
+//                if (getComputedStyle(section).backgroundColor === '#fff') { // dark background
+//                    navbar.classList.remove('navbar-light');
+//                    navbar.classList.add('navbar-dark');
+//                } else {
+//                    navbar.classList.remove('navbar-dark');
+//                    navbar.classList.add('navbar-light');
+//                }
+//            }
+//        });
+//    });
+//});
 

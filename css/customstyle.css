@@ -23,6 +23,12 @@ p {
     text-align: left;
 }
 
+.mil-pb-90 {
+    padding-bottom: 90px;
+}
+.mil-pt-90 {
+    padding-top: 90px;
+}
 .mil-position-3 {
     right: 59%;
 }
@@ -34,8 +40,18 @@ p {
     text-align:center;
 }
 
-
-
+.mil-mb-60{
+    margin-bottom:60px;
+}
+.mil-pb-60 {
+    padding-bottom: 60px;
+}
+.mil-pt-60 {
+    padding-top: 60px;
+}
+.bg-dark{
+    background-color:black;
+}
 
 .mil-banner-content .servicesbtn {
     cursor: pointer;
@@ -115,7 +131,10 @@ p {
     height: 50px;
     width: 65px;
 }
-
+.mil-p-60-90 {
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
 .mil-team-image {
     display: -webkit-box;
     display: -ms-flexbox;
