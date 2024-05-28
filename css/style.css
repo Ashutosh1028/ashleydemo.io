@@ -98,10 +98,12 @@ p{
     font-weight: 400;
     color: #0d0d0d;
 }
+
+
 .mil-wrapper {
-  position: relative;
-  overflow: hidden;
-  max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 .container {

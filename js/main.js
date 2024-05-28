@@ -21,7 +21,7 @@ $(function () {
     const options = {
         containers: ['#swupMain', '#swupMenu'],
         animateHistoryBrowsing: true,
-        linkSelector: 'a:not([data-no-swup])',
+        //linkSelector: 'a:not([data-no-swup])',
         animationSelector: '[class="mil-main-transition"]'
     };
     const swup = new Swup(options);

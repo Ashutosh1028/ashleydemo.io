@@ -47,15 +47,23 @@ window.addEventListener('DOMContentLoaded', function () {
 
 
 
-    document.querySelectorAll('.question-header').forEach(item => {
-        item.addEventListener('click', event => {
-            const answer = item.nextElementSibling;
-            const icon = item.querySelector('.toggle-icon');
-            answer.classList.toggle('show');
-            icon.classList.toggle('rotate');
+    //document.querySelectorAll('.question-header').forEach(item => {
+    //    item.addEventListener('click', event => {
+    //        const answer = item.nextElementSibling;
+    //        const icon = item.querySelector('.toggle-icon');
+    //        answer.classList.toggle('show');
+    //        icon.classList.toggle('rotate');
             
-        });
+    //    });
+    //});
+
+    $('.question-header').click(function () {
+        var answer = $(this).next('.answer');
+        const icon = $(this).siblings('.toggle-icon');
+        answer.toggleClass('show');
+        icon.toggleClass('rotate');
     });
+
 
     });
     //$(document).ready(function () {
@@ -91,6 +99,22 @@ $(document).ready(function () {
         $(this).addClass('active');
     });
 });
+$(document).ready(function () {
+   
+
+    if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+        $('.mil-preloader').css('display', 'block');
+    }
+    else {
+
+        $('.mil-preloader').css('display', 'none');
+    }
+
+    setTimeout(function () {
+        $('.loader-overlay').addClass('hidden'); // Add 'hidden' class to start transition
+    }, 400);
+   
+});
 //document.addEventListener('DOMContentLoaded', () => {
 //    const navbarMenu = document.querySelector('.navbar-menu');
 //    const navbar = document.querySelector('.navbar');
@@ -111,4 +135,6 @@ $(document).ready(function () {
 //        });
 //    });
 //});
+
+// custom.js
 
