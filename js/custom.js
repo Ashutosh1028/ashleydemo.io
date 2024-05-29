@@ -112,7 +112,7 @@ $(document).ready(function () {
 
     setTimeout(function () {
         $('.loader-overlay').addClass('hidden'); // Add 'hidden' class to start transition
-    }, 400);
+    }, 450);
    
 });
 //document.addEventListener('DOMContentLoaded', () => {

@@ -8,7 +8,7 @@
 }
 
 .websiteservice h1 {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .websiteservice .portofolionav p {
@@ -22,7 +22,6 @@
 p {
     text-align: left;
 }
-
 .mil-pb-90 {
     padding-bottom: 90px;
 }
@@ -36,12 +35,18 @@ p {
     font-size: 18px;
     
 }
-.headeronboard{
+.text-center{
     text-align:center;
 }
+.headeronboard {
+    text-align: center;
+}
+.businessmodelbanner{
 
-.mil-mb-60{
-    margin-bottom:60px;
+}
+
+.mil-mb-60 {
+    margin-bottom: 60px;
 }
 .mil-pb-60 {
     padding-bottom: 60px;

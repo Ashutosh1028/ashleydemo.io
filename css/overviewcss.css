@@ -199,9 +199,10 @@
 }
 
 .thoughtsimage img {
-    width: -webkit-fill-available;
-    border-radius: 12px;
+    width: fit-content;
+    border-radius: 10px;
     height: 157px;
+    object-fit: contain;
 }
 .mil-h5-margin {
     font-size: 25px;
@@ -215,6 +216,7 @@
 }
 .thoughts span{
     float: right;
+    white-space:nowrap;
 }
     .thoughts p {
         font-weight: 500;
