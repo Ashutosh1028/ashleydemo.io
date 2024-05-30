@@ -101,7 +101,7 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
    
-
+    alert(window.location.pathname)
     if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
         $('.mil-preloader').css('display', 'block');
     }
