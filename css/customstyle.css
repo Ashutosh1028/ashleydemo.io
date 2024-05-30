@@ -19,6 +19,9 @@
     font-weight: 800;
 }
 
+.align-center{
+    align-items:center;
+}
 p {
     text-align: left;
 }

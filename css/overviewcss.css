@@ -20,6 +20,9 @@
     text-align: center;
     margin-bottom: 44px;
 }
+    .overviewheader{
+        font-size:40px !important;
+    }
 
     .heading-layout1 h2, .heading-layout1 h3 {
         font-family: "Outfit", sans-serif;
