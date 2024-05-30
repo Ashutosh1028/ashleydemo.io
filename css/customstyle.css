@@ -31,9 +31,12 @@ p {
 .mil-position-3 {
     right: 59%;
 }
+.mil-p-60-60{
+    padding-top:60px;
+    padding-bottom:60px;
+}
 .onboardingheaderp {
     font-size: 18px;
-    
 }
 .text-center{
     text-align:center;
