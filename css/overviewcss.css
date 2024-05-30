@@ -68,14 +68,14 @@
     /* background-color: #F7F7F7; */
     border-radius: 20px;
     height: 115px;
-    width: 12%;
+    /*width: 12%;*/
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
     color: #16262d;
     /*margin-left: 1.25rem;*/
-    margin-right: 1.25rem;
+    margin-right: 2.25rem;
     margin-bottom: 1.5rem !important;
     text-align: center;
 }
@@ -199,7 +199,7 @@
 }
 
 .thoughtsimage img {
-    width: fit-content;
+    width: -webkit-fill-available;
     border-radius: 10px;
     height: 157px;
     object-fit: contain;
@@ -318,6 +318,9 @@
         margin-right: 0%;
         margin-left: 6%;
     }
+    .thoughts span {
+         white-space: normal;
+            }
 
 .support-img-wrap img:nth-child(2) {
     width: 33%;
@@ -353,8 +356,46 @@
     }
 }
 @media only screen and (max-width:991px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
     
 }
 @media only screen and (max-width:767px)  {
+    .support-img-wrap img:nth-child(1) {
+        width: 78%;
+        height: auto;
+        margin-top: 7%;
+        margin-bottom: -4%;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
 
+    .support-img-wrap img:nth-child(2) {
+       display:none;
+    }
+
+    .company-years {
+        bottom: 27%;
+        left: 33%;
+    }
+
+    .info-text-block h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .support-img-wrap img:nth-child(3) {
+        border-radius: 10px 10px 10px 50px;
+        width: 41%;
+        object-fit: cover;
+        margin-left: 0%;
+    }
+
+    .support-img-wrap img:nth-child(4) {
+        width: 43%;
+        border-radius: 10px 10px 50px 10px;
+        object-fit: cover;
+        margin-right: 0;
+    }
 }
