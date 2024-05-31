@@ -187,13 +187,24 @@ p {
     display: block !important;
     overflow: visible !important;
 }
-
+.imagewidthfill {
+    overflow: hidden; 
+}
+.imagewidthfill img{
+    border-radius: 10px;
+    width: -webkit-fill-available;
+    transition: transform 0.7s ease;
+}
+.imagewidthfill img:hover {
+    transform: scale(1.2);
+}
 .mil-blog-card.mil-blog-card-hori .mil-cover-frame {
-    height: 530px !important;
+    /* height: 530px !important; */
 }
 
     .mil-blog-card.mil-blog-card-hori .mil-cover-frame img {
         /*height: 530px !important;*/
+        object-fit: cover;
     }
 
 .headerblog {
