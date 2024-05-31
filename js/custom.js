@@ -100,7 +100,7 @@ $(document).ready(function () {
     });
 });
 $(document).ready(function () {
-    if (window.location.pathname === '/' || window.location.pathname === '/index.html' || window.location.pathname === '/ashleydemo.io/' || window.location.pathname === '/ashleydemo.io/index.html' ) {
+    if (window.location.pathname === '/' || window.location.pathname === '/index.html' || window.location.pathname === '/ashutosh1028.github.io/' || window.location.pathname === '/ashutosh1028.github.io/index.html' ) {
         $('.mil-preloader').css('display', 'block');
     }
     else {
