@@ -200,12 +200,15 @@ p {
 }
 .mil-blog-card.mil-blog-card-hori .mil-cover-frame {
     /* height: 530px !important; */
+    padding-bottom: 0;
 }
 
     .mil-blog-card.mil-blog-card-hori .mil-cover-frame img {
         /*height: 530px !important;*/
+        position: relative;
         object-fit: cover;
     }
+
 
 .headerblog {
     font-size: 50px;
