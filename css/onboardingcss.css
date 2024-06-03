@@ -38,7 +38,7 @@
 .step-title {
     font-size: 16px;
     margin: 10px 0;
-    //color: #f2af00; /* Yellowish color */
+    color: #f2af00; /* Yellowish color */
 }
 
 
@@ -95,7 +95,7 @@
 }
 
 .grid-container .card:nth-child(3) .arrow-right {
-    display: none; /* Hide the arrow for the last card in the first row */
+    display: block; /* Hide the arrow for the last card in the first row */
 }
 
 .grid-container .card:nth-child(3) .arrow-down {
@@ -144,7 +144,7 @@
     border-radius: 5px;
     margin-bottom: 10px;
     background-color: #f9f9f9;
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: height 0.5s;
 }
 
@@ -375,3 +375,7 @@
     width: 88%;
     margin-top: 20px;
 }
+@media only screen and (max-width:991px) {
+.grid-container .card:nth-child(3) .arrow-right {
+    display: block; /* Hide the down arrow for the first card in the second row */
+}}

@@ -175,8 +175,11 @@ p {
         }
 
 .spidervideo {
-    height: 350px;
     border-radius: 20px;
+}
+
+video{
+    width: -webkit-fill-available;
 }
 
 .aboutp {
@@ -189,6 +192,9 @@ p {
 }
 .imagewidthfill {
     overflow: hidden; 
+}
+img{
+    width:-webkit-fill-available;
 }
 .imagewidthfill img{
     border-radius: 10px;
@@ -757,6 +763,19 @@ h5.mil-muted.mil-mb-30{
 
 
 
+@media only screen and (max-width:767px) {
+        .mil-breadcrumbs {
+            display: block !important;
+        }
+    }
 
 
 
+    @media only screen and (max-width:500px) {
+        .protoh2 h2 {
+            font-size: 38px;
+        }
+        .websiteservice h1{
+            font-size: 35px;
+        }
+    }
