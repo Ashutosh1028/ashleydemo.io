@@ -202,7 +202,7 @@
 }
 
 .thoughtsimage img {
-    width: -webkit-fill-available;
+    width: 100%; /*img width*/
     border-radius: 10px;
     object-fit: contain;
 }

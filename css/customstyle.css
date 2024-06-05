@@ -48,7 +48,7 @@ p {
     text-align: center;
 }
 .businessmodelbanner img{
-    width: -webkit-fill-available;
+    width: 100%; /*img width*/
 }
 .h2_50 {
     font-size: 50px;
@@ -179,7 +179,7 @@ p {
 }
 
 video{
-    width: -webkit-fill-available;
+    width: 100%; /*img width*/
 }
 
 .aboutp {
@@ -194,11 +194,11 @@ video{
     overflow: hidden; 
 }
 img{
-    width:-webkit-fill-available;
+    width:100%; /*img width*/
 }
 .imagewidthfill img{
     border-radius: 10px;
-    width: -webkit-fill-available;
+    width: 100%; /*img width*/
     transition: transform 0.7s ease;
 }
 .imagewidthfill img:hover {
