@@ -112,7 +112,18 @@ $(document).ready(function () {
         $('.loader-overlay').addClass('hidden'); // Add 'hidden' class to start transition
     }, 450);
    
+
+    
+    
 });
+function toggleDetails(id) {
+    const element = document.getElementById(id);
+    if (element.style.display === 'block') {
+        element.style.display = 'none';
+    } else {
+        element.style.display = 'block';
+    }
+}
 //document.addEventListener('DOMContentLoaded', () => {
 //    const navbarMenu = document.querySelector('.navbar-menu');
 //    const navbar = document.querySelector('.navbar');
