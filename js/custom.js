@@ -100,13 +100,44 @@ $(document).ready(function () {
     });
 });
 $(document).ready(function () {
+    // Function to set data in localStorage with expiration time
+function setWithExpiry(key, value, ttl) {
+    const now = new Date();
+    const item = {
+        value: value,
+        expiry: now.getTime() + ttl * 1000 // Convert ttl from seconds to milliseconds
+    };
+    localStorage.setItem(key, JSON.stringify(item));
+}
+
+// Function to get data from localStorage
+function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key);
+    if (!itemStr) {
+        return null;
+    }
+    const item = JSON.parse(itemStr);
+    const now = new Date();
+    if (now.getTime() > item.expiry) {
+        localStorage.removeItem(key); // Remove the item if it has expired
+        return null;
+    }
+    return item.value;
+}
+
+// Check if preloader should be shown
+const preloaderKey = 'showPreloader';
+const preloaderShown = getWithExpiry(preloaderKey);
+if (!preloaderShown) {
     if (window.location.pathname === '/' || window.location.pathname === '/index.html' || window.location.pathname === '/ashleydemo.io/' || window.location.pathname === '/ashleydemo.io/index.html' ) {
         $('.mil-preloader').css('display', 'block');
+         $('.loader-overlay').addClass('hidden');
+        setWithExpiry(preloaderKey, true, 24 * 60 * 60); // Set the preloader to be shown for 24 hours
     }
-    else {
+} else {
+    $('.mil-preloader').css('display', 'none');
+}
 
-        $('.mil-preloader').css('display', 'none');
-    }
 
     setTimeout(function () {
         $('.loader-overlay').addClass('hidden'); // Add 'hidden' class to start transition

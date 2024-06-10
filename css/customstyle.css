@@ -63,7 +63,10 @@ p {
     padding-top: 60px;
 }
 .bg-dark{
-    background-color:black;
+    pointer-events: none;
+    z-index: 2;
+    -webkit-backdrop-filter: invert(100%);
+    backdrop-filter: invert(100%);
 }
 
 .mil-banner-content .servicesbtn {
@@ -185,6 +188,11 @@ video{
 .aboutp {
     font-size: 18px;
 }
+
+html {
+    scroll-behavior: auto !important; /* Disable smooth scrolling */
+}
+
 .bg-dark h1,
 .bg-dark h2,
 .bg-dark h3,
