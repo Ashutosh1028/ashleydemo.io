@@ -10,7 +10,12 @@
 .websiteservice h1 {
     font-size: 45px;
 }
-
+.firstdiv_specialmsg{
+    width: calc(100% - 35%);
+}
+.seconddiv_specialmsg{
+    width: calc(100% - 65%);
+}
 .websiteservice .portofolionav p {
     letter-spacing: 1px !important;
 }
@@ -67,6 +72,12 @@ p {
     z-index: 2;
     -webkit-backdrop-filter: invert(100%);
     backdrop-filter: invert(100%);
+}
+.businesssplimg{
+    width: 141%;
+}
+.specialmsg{
+    display: flex;
 }
 
 .mil-banner-content .servicesbtn {
@@ -810,5 +821,27 @@ h5.mil-muted.mil-mb-30{
         }
         .websiteservice h1{
             font-size: 35px;
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        .specialmsg {
+            display: block;
+            padding-top: 0;
+            border: none;
+        }
+        .firstdiv_specialmsg{
+            width:100%;
+        }
+        .seconddiv_specialmsg{
+            width: 100%;
+        }
+        .businesssplimg {
+             width: 100%; 
+        }
+    }
+    @media screen and (max-width: 1245px) {
+        .businesssplimg {
+             width: 100%; 
         }
     }
