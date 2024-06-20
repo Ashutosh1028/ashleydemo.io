@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'supercharge';
+    src: url('../fonts/Superchargefont.otf') format('opentype');
+}
+
 .services .mil-h1 {
     font-size: 34px;
 }
@@ -104,7 +109,18 @@ p {
 .textyellow{
     color: rgb(255, 152, 0);
 }
-
+.techfont span{
+    font-family: 'supercharge', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(255, 152, 0);
+    margin-top: 20%;
+    font-weight: 400; /* Use the lightest available weight for a thin line look */
+    letter-spacing: 2px; /* Optional: Add letter spacing for a more futuristic look */
+}
+.techfont{
+    font-size: 50px;
+}
 .servicesbtn svg {
     margin-left: 30px;
     border-radius: 50%;
