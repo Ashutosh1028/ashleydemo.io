@@ -110,7 +110,7 @@ p {
     color: rgb(255, 152, 0);
 }
 .techfont span{
-    font-family: 'supercharge', sans-serif;
+    /* font-family: 'supercharge', sans-serif; */
     font-size: 3rem;
     text-align: center;
     color: rgb(255, 152, 0);
