@@ -416,11 +416,11 @@ h5.mil-muted.mil-mb-30{
     white-space: nowrap;
     text-transform: uppercase;
 }
-.watermarkdiv {
-    /*background: linear-gradient(to bottom, #000 50%, #ffffff 50%);
+/* .watermarkdiv {
+    background: linear-gradient(to bottom, #000 50%, #ffffff 50%);
     -webkit-background-clip: text;
-    position: relative;*/
-}
+    position: relative;
+} */
 .mil-p-60-90{
     padding-top:60px;
     padding-bottom:90px;
