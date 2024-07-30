@@ -293,7 +293,10 @@ img{
 .headerblog {
     font-size: 50px;
 }
-
+.mil-p-30-60{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
 span.blogprice {
     font-weight: 800;
 }
