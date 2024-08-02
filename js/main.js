@@ -31,7 +31,7 @@ $(function () {
     register gsap plugins
 
     ***************************/
-    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+    //gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
     /***************************
 
     color variables
