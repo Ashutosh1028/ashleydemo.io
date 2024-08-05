@@ -346,7 +346,9 @@ h5.mil-muted.mil-mb-30{
     overflow: hidden;
     margin: 10%;
 }
-
+h5.bigfont{
+    /* font-size: 50px; */
+}
 .casestudy .mil-cover-img {
     width: 100%;
     height: 100%;
