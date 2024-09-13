@@ -17,10 +17,16 @@
     margin-bottom: 30px;
 }
 .call-to-action__text {
+<<<<<<< HEAD
     max-width: 813px;
     margin: 0 auto;
     text-align: center;
     font-size: 19px;
+=======
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+>>>>>>> bae8b68ec9204d9d3ba1e6d651d27f639d64ce08
 }
 .call-to-action:before { 
     display: block; 
@@ -100,10 +106,16 @@ call-to-action__image {
     margin: -80px auto auto auto;
 }
 .call-to-action__sub {
+<<<<<<< HEAD
     max-width: 813px;
     margin: 0 auto;
     text-align: center;
     font-size: 19px;
+=======
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+>>>>>>> bae8b68ec9204d9d3ba1e6d651d27f639d64ce08
 }
 .call-to-action__title strong { 
     border-bottom: 4px solid;
