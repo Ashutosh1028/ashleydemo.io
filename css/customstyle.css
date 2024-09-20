@@ -321,7 +321,9 @@ span.blogprice {
     height: auto;
     object-fit: contain; 
 }
-
+.mil-text-xl {
+    font-size: 19px;
+}
 .mil-p-30-120 {
     padding-bottom: 120px;
     padding-top: 30px;
